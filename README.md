@@ -46,8 +46,20 @@ This is not an officially supported Google product. Please be aware that bugs ma
 
 ## Installation
 
+### Manual Installation
+
 The [Installation](https://github.com/GoogleCloudPlatform/professional-services-data-validator/blob/develop/docs/installation.md) page describes the prerequisites and
-setup steps needed to install and use the Data Validation Tool.
+setup steps needed to install and use the Data Validation Tool manually.
+
+### Installation via Gemini
+If you are using the Gemini CLI, it will automatically discover the included installation workflow.
+
+1.  **Start Gemini**:
+    Run `gemini` in the project root.
+2.  **Ask for Installation**:
+    Ask Gemini: "How do I install DVT?"
+
+This workflow will guide you through checking prerequisites, creating a virtual environment or Docker image, and selecting necessary database drivers (Oracle, SQL Server, etc.).
 
 ## Usage
 
