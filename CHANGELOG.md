@@ -2,6 +2,21 @@
 
 ## Untagged
 
+## [8.6.0](https://github.com/GoogleCloudPlatform/professional-services-data-validator/compare/v8.5.2...v8.6.0) (2026-03-19)
+
+
+### Features
+
+* Add Db2 binary types to supported types ([#1679](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1679)) ([04ad3a8](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/04ad3a8551e8d55226c0b1de567dad9cd16d8e0b))
+* Add support for differing source/target schema names to find-tables ([#1692](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1692)) ([a9b5377](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/a9b537756c9312a2b572b8c3f1d799164ea54e0e))
+* Reduce Redshift queries ([#1687](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1687)) ([b0155ec](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/b0155eccb9d9258695b30f09483f02e48467120b))
+
+
+### Bug Fixes
+
+* Force Db2 FOR BIT DATA columns to Ibis Binary ([#1690](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1690)) ([752170b](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/752170b682ab23fb167e020b08e7a8d1bf2c5936))
+* Replace typehints that are incompatible with Python 3.9 ([#1704](https://github.com/GoogleCloudPlatform/professional-services-data-validator/issues/1704)) ([97e959c](https://github.com/GoogleCloudPlatform/professional-services-data-validator/commit/97e959c0bbe615103b89844b23f7c2a40a9bf8a1))
+
 ## [8.5.2](https://github.com/GoogleCloudPlatform/professional-services-data-validator/compare/v8.5.1...v8.5.2) (2026-02-26)
 
 
